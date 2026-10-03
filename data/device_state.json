@@ -1,0 +1,8 @@
+{
+  "temperature": 38,
+  "humidity": 59,
+  "ledStatus": "ON",
+  "lcdLine1": "Smart Display",
+  "lcdLine2": "MYDATA",
+  "lastSeen": 1791011884056
+}

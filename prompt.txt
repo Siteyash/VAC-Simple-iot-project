@@ -1,0 +1,102 @@
+Create IOT+Web Application
+
+IOT Details
+1.Microcontroller: ESP8266 (NodeMCU CP2102)
+2.Sensors: DHT11 D5
+3.Actuators: 16x2 LCD I2c @0x27 D1 & D2
+4.LED D3 
+
+Web Application
+5. Tech Stack 
+FrontEnd: HTML & Tailwind CSS
+Backend: Express & NodeJS
+Database: Simple JSON
+
+MOST IMPORTANT
+6.This Web App Should be Deployable at Render
+
+7.Project/App Name: Simple IOT World
+
+Web Application Features(Functionality)
+Page 1:
+Logiin Page, Registration Link(Name,Email,password)
+
+Page 2: Web Dashboard(Tab1)
+section1:
+Show Current Temperature and humidity in cards with Best UI/UX & large font Guage/Seek Bar (Colourful)
+
+Show Graphs (Temp and hum)
+section2:
+Show All Saved Records
+#| Temprature | Humidity | Time | Date | Action(Delete)
+1|34 `C | 50% | HH:MM AM | DD-MM-YYYY | Delete
+
+TimeZone: Asia/Kolkata +5:30
+
+Page 2: WEbDashboard(Tab2)
+Create 2 Input Text Fields
+
+Field 1: Max 16 Characters
+Field 2: Max 16 Characters
+Save Button
+Upon Save show Above Details on LCD
+
+Page2 : Web Dashboard (Tab3)
+Add Innovative Button to Turn LED ON and OFF
+
+ON Header Show Web App Name and Logged In User Name Example: Welcome Tushar
+
+Web App Theme:
+Use Gradient Colors:
+Theme Color : blue and green
+Important : Make Sure to add Light/Dark Theme Toggle
+
+
+Footer Text
+DEsigned & Developed with Love(Heart Animated Pulse Icon)by Yash Site And Team.Department of ETC
+
+Hardware Output
+LCD 16x2
+
+WIFI CREdentials:
+WIFI NAME : EXAM
+Password : 123456789
+
+RenderURL : keep it blaNK WIll ADD after deployement
+
+
+InSetup
+R!:MyProject
+R2: WELCOME
+delay(3s)
+R1: CONNECTING TO
+R2: WIFI... SUCCESS
+
+In loop
+Fetch Details from Server(LCD Data & LED Data)
+Send Details to Server (TEmp & hum) Every 10 SEconds
+
+R1: TEMPERATURE
+R2: 38`
+delay(2s)
+R1: Humidity
+R2: 59%
+delay(2s)
+Get below details from sever
+R1: Smart Display
+R2: MYDAATA
+delay(2s)
+Get this From Server
+R1: LED Status
+R2: ON/OFF
+delay(2s)
+
+R1 and R2 are the Rows of LCD
+
+IMPORTANT
+MAke it Responsive!
+Also Show ONLINE/OFFLINE status of esp8266
+
+Generate Web app COdes and Esp8266 code
+Dont do actomation Testing
+I will do manual Testing
